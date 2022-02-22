@@ -1,0 +1,101 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#red-line{
+    border-left: 5px solid;
+    border-color: rgb(238, 136, 118);
+    border-radius: 3px;
+    border-image-slice: 1;
+}
+.orange-text{
+    color: orange;
+}
+.button{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+    margin-left: 30px;
+}
+.half-width img{
+    width: 100%;
+    height: auto;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+#second-sec{
+    text-align: center;
+}
+.card{
+    width: 30%;
+    height: 700px;
+    margin: 5%;
+    padding: 10px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+#blue-card{
+    background-color: rgb(206, 222, 231);
+    border-radius: 15px;
+    margin-right: 10px;
+}
+#red-card{
+    background-color: rgb(240, 219, 223);
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#yello-card{
+    background-color: rgb(231, 231, 218);
+    border-radius: 15px;
+    margin-left: 10px;
+}
+#third-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px;
+}
+#forth-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 200px;
+}
+.white-text{
+    color: white;
+}
+#red-text{
+    color: tomato;
+}
+#bottom-section{
+    background-color: black;
+    text-align: center;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
